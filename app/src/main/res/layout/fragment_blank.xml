@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BlankFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="@drawable/cards1"
+        >
+        <ImageView
+            android:id="@+id/brandImage"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            />
+
+        <TextView
+            android:id="@+id/brandName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:id="@+id/freeDEV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            />
+        <TextView
+            android:id="@+id/availablePieces"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/Price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/addToCart"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Cart"
+            android:gravity="center"
+            android:textSize="17sp"
+            android:background="@drawable/cart_btn"
+            android:textColor="@color/white"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/cancelBtn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Cancel"
+            android:gravity="center"
+            android:textSize="17sp"
+            android:background="@drawable/backgroung1"
+            android:textColor="#959595"
+            android:layout_marginTop="15dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
